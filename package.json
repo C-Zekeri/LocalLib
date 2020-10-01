@@ -1,0 +1,43 @@
+{
+  "name": "locallib",
+  "version": "0.0.0",
+  "description": "A local library project built with NodeJS/Express",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "SET DEBUG=locallib:* npm run devstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Zekeri/LocalLib.git"
+  },
+  "keywords": [
+    "crud",
+    "NodeJS",
+    "Express",
+    "JavaScript"
+  ],
+  "author": "Chenemi Zekeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-Zekeri/LocalLib/issues"
+  },
+  "homepage": "https://github.com/C-Zekeri/LocalLib#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.28.0",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.2",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
